@@ -1,0 +1,98 @@
+/*Esto lo saqué de internet para no batallar con imagenes jaja*/
+
+.verde{
+	background: rgb(180,227,145); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Opera 12+ */  
+}
+
+.amarillo{
+    background: rgb(252,234,187); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 12+ */
+}
+
+.rojo{
+    background: rgb(243,197,189); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%); /* Opera 12+ */
+}
+
+
+
+/* ===================================================================================*/
+
+body{
+    background-color: rgb(53, 49, 49); 
+    display: flex; 
+    overflow: hidden; 
+}
+
+.semaforo{
+    position: relative; 
+    width: 100%; 
+    height: 1000px;
+} 
+
+.circulo{
+	
+	border-radius: 50%;
+	width:600px; height: 600px;
+	position: absolute;
+    top: 16%;
+    left: 33%; 
+    z-index: 2;
+
+}
+
+.btnActivar{
+    position: absolute;
+    top: 82%;
+    left: 45.5%; 
+    z-index: 3;
+
+    background-color: rgb(17, 101, 197);
+    color: white;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnActivar:hover{
+    background-color: rgb(78, 155, 206);
+}
+
+.btnDesActivar{
+    position: absolute;
+    top: 82%;
+    left: 45.5%; 
+    z-index: 3;
+
+    background-color: rgb(212, 22, 22);
+    color: white;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnDesActivar:hover{
+    background-color: rgb(201, 77, 77);
+}
+
+.etiqueta{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 87%;
+    left: 40%; 
+    z-index: 3;
+
+}
